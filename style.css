@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    background-color: black;
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    width:160px;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    border-bottom: saddlebrown;
+    cursor:pointer;
+    box-shadow: rgba(231, 3, 3, 0.678);
+    transition-duration: 0.3s;
+    transition transition-property: box-shadow, transform;
+
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(224, 222, 222, 0.5);
+    transform: scale(2);
+    color: seagreen;
+    border: 5px solid slategrey;
+
+}
